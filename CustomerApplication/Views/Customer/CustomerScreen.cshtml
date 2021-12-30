@@ -1,0 +1,23 @@
+﻿@*@model CustomerApplication.Models.Customer ;*@
+    @* FOr strongly typed view we use one line of code at the top of view *@
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = null; 
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Customer Screen</title>
+</head>
+<body>
+    <form action="Add" method="post">
+        Customer Code : - <input type="text" name="CustomerCode" value="" /><br />
+        Customer Name : - <input type="text" name="CustomerName" value="" /><br />
+        Customer Amout : -<input type="text" name="CustomerAmount" value="" /></br>
+        <input type="submit" name="name" value="Add Customer" />
+    </form>
+</body>
+</html>
